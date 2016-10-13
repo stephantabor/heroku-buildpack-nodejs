@@ -62,4 +62,6 @@ install_npm() {
       npm install --unsafe-perm --quiet -g npm@$version 2>&1 >/dev/null
     fi
   fi
+  
+  npm install --unsafe-perm -g yarn
 }
